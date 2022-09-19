@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --primary: #9793e5;
+    --secondary: #0084fd;
+    --secondary-light: #b4ddfe;
+    --accent: #fdc15f;
+    --dark: #323332;
+    --darker: #000;
+    --light: #fffefe;
+
+}
