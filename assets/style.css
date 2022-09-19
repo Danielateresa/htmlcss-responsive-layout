@@ -28,7 +28,7 @@
 
 /*region utilities*/
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     padding: 2rem 0;
 }
@@ -107,5 +107,8 @@ header nav {
 /*#endregion header*/
 
 /*#endregion main*/
+.planning {
+    background-color: var(--primary);
+}
 
 /*#endregion main*/
