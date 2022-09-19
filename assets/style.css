@@ -186,7 +186,7 @@ header nav {
 }
 
 .foto {
-    width: 20%;
+    width: 30%;
     aspect-ratio: 1/1;
 }
 
@@ -324,11 +324,13 @@ header nav {
 
 .bio {
     display: block;
-    padding: 0 1rem 0 4rem;
+    padding: 0 1rem 0 0;
+    margin-left: 2rem;
+    line-height: 2;
 }
 
 .testimonial_name {
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .foto1,
@@ -437,6 +439,9 @@ footer {
         width: 100%;
     }
 
+    .foto {
+        width: 100%;
+    }
 }
 
 
@@ -473,6 +478,15 @@ footer {
 
     .app_development_description h3 {
         font-size: 1.5rem;
+    }
+
+    .partner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foto {
+        margin-bottom: 2rem;
     }
 }
 
