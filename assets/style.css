@@ -168,3 +168,17 @@ footer {
 }
 
 /*#endregion responsive tablet*/
+
+/*#region responsive 1200px*/
+
+@media screen and (max-width:1200px) {
+    .col_4 {
+        width: calc(100% /12 *4);
+    }
+
+    .col_6 {
+        width: calc(100% /12 *6);
+    }
+}
+
+/*#endregion responsive 1200px*/
