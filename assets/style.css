@@ -144,3 +144,14 @@ footer {
 }
 
 /*#endregion footer*/
+
+/*#region responsive mobile*/
+@media screen and (max-width:480px) {
+    .col_sm_12 {
+        width: 100%;
+    }
+
+
+}
+
+/*#endregion responsive mobile*/
