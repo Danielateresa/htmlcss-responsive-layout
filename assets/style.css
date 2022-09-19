@@ -16,9 +16,9 @@
 }
 
 /*#region debug*/
-.debug header {
+/* .debug header {
     height: 70px;
-}
+} */
 
 .debug .heading,
 .partner {
@@ -107,6 +107,9 @@
 /*#endregion utilities*/
 
 /*#region common*/
+body {
+    font-family: 'Inria Sans', sans-serif;
+}
 
 /*#endregion common*/
 
@@ -119,7 +122,31 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav_container {
+    width: 70%;
+    margin: 0 auto;
     padding: 1rem 0;
+}
+
+.nav_container ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: var(--light);
+}
+
+.nav_container li {
+    margin-left: 2rem;
+}
+
+.nav_container li a {
+    color: var(--darker);
+    text-decoration: none;
+    background-color: var(--light);
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
 }
 
 /*#endregion header*/
