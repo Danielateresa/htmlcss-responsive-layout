@@ -39,7 +39,7 @@
 }
 
 [class^="col_"] {
-    height: 400px;
+
     border: 1px solid black;
 }
 
@@ -104,11 +104,26 @@
     width: 100%;
 }
 
+.button {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+}
+
 /*#endregion utilities*/
 
 /*#region common*/
 body {
     font-family: 'Inria Sans', sans-serif;
+}
+
+body p {
+    line-height: 2;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 /*#endregion common*/
@@ -144,10 +159,7 @@ header nav {
 
 .nav_container li a {
     color: var(--darker);
-    text-decoration: none;
     background-color: var(--light);
-    padding: 0.5rem 1rem;
-    border-radius: 30px;
 }
 
 .nav_container li:last-child {
@@ -167,6 +179,47 @@ header nav {
 .foto {
     width: 20%;
     aspect-ratio: 1/1;
+}
+
+.demo .col_8 {
+    display: flex;
+    background-color: var(--secondary-light);
+    border-radius: 30px;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.application {
+    width: 50%;
+}
+
+.demo .col_8 img {
+    padding: 3rem 3rem 0 0;
+    width: 50%;
+}
+
+.demo p {
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 2rem;
+}
+
+.demo h3 {
+    color: var(--secondary);
+}
+
+.application a {
+    background-color: var(--secondary);
+    color: var(--light);
+    padding: 0.5rem 3rem;
+}
+
+.fa-brands.fa-apple {
+    margin-right: 1rem;
+}
+
+.demo col_4 i {
+    width: 70px;
+
 }
 
 /*#endregion main*/
