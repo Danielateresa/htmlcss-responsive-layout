@@ -116,6 +116,7 @@ body {
 /*#region header*/
 header {
     background-color: var(--secondary);
+    position: relative;
 }
 
 header nav {
@@ -149,6 +150,11 @@ header nav {
     border-radius: 30px;
 }
 
+.nav_container li:last-child {
+    display: none;
+}
+
+
 /*#endregion header*/
 
 /*#endregion main*/
@@ -177,6 +183,15 @@ footer {
     .col_sm_12 {
         width: 100%;
     }
+
+    .nav_container li:last-child {
+        display: block;
+    }
+
+    .item_nav {
+        display: none;
+    }
+
 }
 
 /*#endregion responsive mobile*/
@@ -191,6 +206,15 @@ footer {
     .col_md_6 {
         width: 50%;
     }
+
+    .nav_container li:last-child {
+        display: block;
+    }
+
+    .item_nav {
+        display: none;
+    }
+
 
 }
 
