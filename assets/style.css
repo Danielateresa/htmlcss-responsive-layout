@@ -355,6 +355,24 @@ header nav {
     background-image: url(./img/testimonial3.jpg);
 }
 
+.benefits {
+    background-color: var(--primary);
+}
+
+.benefits h1 {
+    color: var(--light);
+}
+
+.benefits .col_4 {
+    padding: 0.5rem;
+}
+
+.benefits_card {
+    background-color: var(--light);
+    border-radius: 30px;
+    padding: 2rem;
+}
+
 /*#endregion main*/
 
 /*#region footer*/
