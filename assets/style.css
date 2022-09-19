@@ -150,8 +150,21 @@ footer {
     .col_sm_12 {
         width: 100%;
     }
-
-
 }
 
 /*#endregion responsive mobile*/
+
+/*#region responsive tablet*/
+@media screen and (max-width:769px) {
+
+    .planning .col_sm_12 {
+        width: 100%;
+    }
+
+    .col_md_6 {
+        width: 50%;
+    }
+
+}
+
+/*#endregion responsive tablet*/
