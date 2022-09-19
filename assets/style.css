@@ -48,7 +48,7 @@
 .container {
     width: 70%;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .row {
@@ -144,11 +144,13 @@ header nav {
     width: 70%;
     margin: 0 auto;
     padding: 1rem 0;
+
 }
 
 .nav_container ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     list-style: none;
     color: var(--light);
 }
@@ -181,20 +183,41 @@ header nav {
     aspect-ratio: 1/1;
 }
 
-.demo .col_8 {
+.demo .col_8,
+.demo .col_4 {
+    padding: 1rem 0.5rem 0 0.5rem;
+}
+
+.pd_container {
     display: flex;
     background-color: var(--secondary-light);
     border-radius: 30px;
     padding: 1rem 1rem 0 1rem;
+    height: 100%;
 }
+
+.pd_container_sm {
+    text-align: center;
+    background-color: var(--secondary-light);
+    border-radius: 30px;
+    padding: 2rem 1rem 1rem 1rem;
+    height: 100%;
+}
+
 
 .application {
     width: 50%;
 }
 
-.demo .col_8 img {
-    padding: 3rem 3rem 0 0;
-    width: 50%;
+.img_application {
+    padding: 3rem 0 0 3rem;
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.img_application img {
+    width: 100%;
 }
 
 .demo p {
@@ -209,8 +232,9 @@ header nav {
 
 .application a {
     background-color: var(--secondary);
-    color: var(--light);
     padding: 0.5rem 3rem;
+    color: var(--light);
+
 }
 
 .fa-brands.fa-apple {
@@ -220,6 +244,55 @@ header nav {
 .demo col_4 i {
     width: 70px;
 
+}
+
+.pd_container_sm i {
+    color: var(--secondary);
+}
+
+.planning_content {
+    padding: 4rem 8rem;
+    color: var(--light);
+}
+
+.planning_content img {
+    width: 100%;
+    margin-bottom: 8rem;
+}
+
+.planning_description h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.app_development_container {
+    background-color: var(--light);
+    border-radius: 50px;
+    padding: 2rem 2.5rem 4rem 2.5rem;
+    margin-left: 2rem;
+    width: 70%;
+    text-align: center;
+}
+
+.app_development_container img {
+    width: 60%;
+}
+
+.small_icon_arrow {
+
+    color: var(--darker);
+    background-color: var(--primary);
+    padding: 1.2rem 1.5rem 1.2rem 1.5rem;
+    border-radius: 50%;
+}
+
+.app_development_description {
+    margin-bottom: 3rem;
+}
+
+.container-fl {
+    display: flex;
+    align-items: flex-end;
 }
 
 /*#endregion main*/
