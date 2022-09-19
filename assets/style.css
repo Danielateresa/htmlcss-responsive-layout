@@ -324,6 +324,9 @@ footer {
 
 /*#region responsive tablet*/
 @media screen and (max-width:769px) {
+    .container {
+        width: 90%;
+    }
 
     .planning .col_sm_12 {
         width: 100%;
@@ -340,6 +343,23 @@ footer {
     .item_nav {
         display: none;
     }
+
+    .application {
+        width: 100%;
+    }
+
+    .pd_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+
+    .img_application {
+        padding: 3rem 0 0 0;
+        width: 50%;
+    }
+
 
 
 }
