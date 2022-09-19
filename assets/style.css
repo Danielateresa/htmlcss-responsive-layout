@@ -14,3 +14,36 @@
     --light: #fffefe;
 
 }
+
+/*#region debug*/
+.debug header {
+    height: 70px;
+}
+
+/*#endregion debug*/
+
+/*#region common*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*#endregion common*/
+
+/*#region header*/
+header {
+    background-color: var(--secondary);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+/*#endregion header*/
+
+/*#endregion main*/
+
+/*#endregion main*/
