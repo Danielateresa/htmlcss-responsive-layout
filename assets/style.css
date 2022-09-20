@@ -449,6 +449,58 @@ i.fa-solid.fa-quote-left.fa-4x {
     font-weight: 700;
 }
 
+.get_started {
+    background-color: var(--primary);
+    color: var(--light);
+    text-align: center;
+}
+
+.centered_box {
+    padding: 0 30%;
+}
+
+.get_started_small {
+    color: #b5b2ee;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.get_started h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.free {
+    color: var(--accent);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.started_button {
+    background-color: var(--light);
+    color: var(--primary);
+    letter-spacing: 2px;
+    padding: 1rem 3rem;
+    font-weight: 700;
+}
+
+.beta {
+    margin-bottom: 2.5rem;
+}
+
+.copy {
+    margin-top: 2.5rem;
+    font-size: 12px;
+}
+
+.copy a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+
+
 /*#endregion main*/
 
 /*#region footer*/
