@@ -456,7 +456,8 @@ i.fa-solid.fa-quote-left.fa-4x {
 }
 
 .centered_box {
-    padding: 0 30%;
+    margin: 0 auto;
+    width: 500px;
 }
 
 .get_started_small {
@@ -595,6 +596,11 @@ footer {
     .cit_container {
         padding: 2rem 2rem 0 0;
     }
+
+    .centered_box {
+
+        width: 400px;
+    }
 }
 
 /*#endregion responsive tablet*/
@@ -657,6 +663,11 @@ footer {
         position: absolute;
         top: 5%;
         right: 40%;
+    }
+
+    .centered_box {
+        margin: 0 auto;
+        width: 80%;
     }
 }
 
