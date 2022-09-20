@@ -147,10 +147,9 @@ header nav {
 }
 
 .nav_container {
-    width: 70%;
+    max-width: 1140px;
     margin: 0 auto;
-    padding: 1rem 0;
-
+    padding: 1rem 0 1rem 0.5rem;
 }
 
 .nav_container ul {
@@ -187,11 +186,6 @@ header nav {
     background-color: var(--primary);
 }
 
-/* .foto {
-    width: 30%;
-    aspect-ratio: 1/1;
-} */
-
 .demo .col_8,
 .demo .col_4 {
     padding: 1rem 0.5rem 0 0.5rem;
@@ -212,7 +206,6 @@ header nav {
     padding: 2rem 1rem 1rem 1rem;
     height: 100%;
 }
-
 
 .application {
     width: 50%;
@@ -243,7 +236,6 @@ header nav {
     background-color: var(--secondary);
     padding: 0.5rem 3rem;
     color: var(--light);
-
 }
 
 .fa-brands.fa-apple {
@@ -311,7 +303,6 @@ header nav {
 
 .heading h1 {
     color: var(--primary);
-
 }
 
 .partner {
@@ -345,7 +336,6 @@ header nav {
     border-radius: 50%;
     object-fit: cover;
 }
-
 
 .benefits {
     background-color: var(--primary);
@@ -506,8 +496,6 @@ i.fa-solid.fa-quote-left.fa-4x {
     margin-bottom: 2rem;
 }
 
-
-
 /*#endregion main*/
 
 /*#region footer*/
@@ -520,6 +508,12 @@ footer {
 /*#region responsive 1200px*/
 
 @media screen and (max-width:1200px) {
+
+    .nav_container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 1rem 0 1rem 0.5rem;
+    }
 
     .container {
         max-width: 1140px;
@@ -543,7 +537,8 @@ footer {
     }
 
     .nav_container {
-        width: 90%;
+        max-width: 720px;
+        padding: 1rem 0.5rem 1rem 0.5rem
     }
 
     .planning .col_sm_12 {
