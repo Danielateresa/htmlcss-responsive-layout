@@ -451,13 +451,13 @@ i.fa-solid.fa-quote-left.fa-4x {
 
 .get_started {
     background-color: var(--primary);
-    color: var(--light);
-    text-align: center;
 }
 
 .centered_box {
     margin: 0 auto;
     width: 500px;
+    text-align: center;
+    color: var(--light);
 }
 
 .get_started_small {
@@ -490,14 +490,29 @@ i.fa-solid.fa-quote-left.fa-4x {
     margin-bottom: 2.5rem;
 }
 
-.copy {
+.get_started .xs_text {
     margin-top: 2.5rem;
     font-size: 12px;
 }
 
-.copy a {
-    text-decoration: none;
+.get_started .xs_text a {
     color: var(--light);
+}
+
+#site_footer .centered_box {
+    width: 300px;
+}
+
+#site_footer a {
+    color: var(--primary);
+}
+
+#site_footer {
+    font-size: 12px;
+}
+
+#site_footer .xs_text {
+    margin-bottom: 2rem;
 }
 
 
@@ -669,6 +684,10 @@ footer {
         margin: 0 auto;
         width: 80%;
     }
-}
 
-/*#endregion responsive mobile*/
+    #site_footer .centered_box {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    /*#endregion responsive mobile*/
