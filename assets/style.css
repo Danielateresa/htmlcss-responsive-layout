@@ -47,7 +47,7 @@
 
 /*region utilities*/
 .container {
-    width: 70%;
+    max-width: 1140px;
     margin: 0 auto;
     padding: 3rem 0;
 }
@@ -260,7 +260,7 @@ header nav {
 }
 
 .planning_content {
-    padding: 4rem 8rem;
+    padding: 4rem 4rem;
     color: var(--light);
 }
 
@@ -411,6 +411,7 @@ header nav {
     background-color: var(--primary);
     color: var(--light);
     padding: 0.5rem 1rem 0.5rem 0.5rem;
+    font-size: 10px;
 }
 
 i.fa-brands.fa-linkedin {
@@ -431,8 +432,8 @@ i.fa-brands.fa-linkedin {
 
 i.fa-solid.fa-quote-left.fa-4x {
     position: absolute;
-    top: 1.5rem;
-    right: 3.5rem;
+    top: 5%;
+    right: 20%;
     color: var(--primary);
 }
 
@@ -448,10 +449,6 @@ i.fa-solid.fa-quote-left.fa-4x {
     font-weight: 700;
 }
 
-
-
-
-
 /*#endregion main*/
 
 /*#region footer*/
@@ -464,6 +461,11 @@ footer {
 /*#region responsive 1200px*/
 
 @media screen and (max-width:1200px) {
+
+    .container {
+        max-width: 1140px;
+    }
+
     .col_4 {
         width: calc(100% /12 *4);
     }
@@ -478,7 +480,7 @@ footer {
 /*#region responsive tablet*/
 @media screen and (max-width:769px) {
     .container {
-        width: 90%;
+        max-width: 720px;
     }
 
     .nav_container {
@@ -511,7 +513,6 @@ footer {
         justify-content: space-between;
     }
 
-
     .img_application {
         padding: 3rem 0 0 0;
         width: 50%;
@@ -519,11 +520,10 @@ footer {
 
     .planning_content {
         padding: 0;
-
     }
 
     .planning_description h2 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .app_development_container {
@@ -539,8 +539,13 @@ footer {
     .foto {
         width: 100%;
     }
+
+    .cit_container {
+        padding: 2rem 2rem 0 0;
+    }
 }
 
+/*#endregion responsive tablet*/
 
 /*#region responsive mobile*/
 @media screen and (max-width:480px) {
@@ -549,7 +554,7 @@ footer {
     }
 
     .nav_container {
-        width: 90%;
+        max-width: 90%;
     }
 
     .nav_container li:last-child {
@@ -570,7 +575,7 @@ footer {
     }
 
     .planning_description h2 {
-        font-size: 2.5rem;
+        font-size: 2.0rem;
     }
 
     .app_development_description h3 {
@@ -585,8 +590,22 @@ footer {
     .foto {
         margin-bottom: 2rem;
     }
+
+    .cit_container {
+        padding: 2rem 2rem;
+    }
+
+    .avatar img {
+        max-width: 60%;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+    }
+
+    i.fa-solid.fa-quote-left.fa-4x {
+        position: absolute;
+        top: 5%;
+        right: 40%;
+    }
 }
 
 /*#endregion responsive mobile*/
-
-/*#endregion responsive tablet*/
