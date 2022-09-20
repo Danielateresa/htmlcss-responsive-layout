@@ -375,6 +375,35 @@ header nav {
     padding: 2rem;
 }
 
+.button_more {
+    background-color: var(--primary);
+    color: var(--light);
+    font-size: 15px;
+    padding: 0.5rem 2rem;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.benefits_card h2,
+.number_card {
+    color: var(--primary);
+}
+
+.benefits_card h2 {
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.number_card {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.benefits_card p {
+    margin-bottom: 2rem;
+}
+
+
+
 /*#endregion main*/
 
 /*#region footer*/
