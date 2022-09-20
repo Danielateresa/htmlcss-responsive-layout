@@ -115,6 +115,11 @@
     margin-bottom: 2rem;
 }
 
+.container-fl {
+    display: flex;
+    align-items: flex-end;
+}
+
 /*#endregion utilities*/
 
 /*#region common*/
@@ -176,10 +181,11 @@ header nav {
     display: none;
 }
 
-
 /*#endregion header*/
 
-/*#endregion main*/
+/*#region main*/
+
+/*#region section demo*/
 .planning,
 .benefits,
 .get_started {
@@ -244,12 +250,15 @@ header nav {
 
 .demo col_4 i {
     width: 70px;
-
 }
 
 .pd_container_sm i {
     color: var(--secondary);
 }
+
+/*#endregion section demo*/
+
+/*#region section planning*/
 
 .planning_content {
     padding: 4rem 4rem;
@@ -291,11 +300,9 @@ header nav {
     margin-bottom: 3rem;
 }
 
-.container-fl {
-    display: flex;
-    align-items: flex-end;
-}
+/*#endregion section planning*/
 
+/*#region section testimonials*/
 .heading {
     text-align: center;
     padding: 0 1rem 0 1rem;
@@ -337,6 +344,9 @@ header nav {
     object-fit: cover;
 }
 
+/*#endregion section testimonials*/
+
+/*#region section benefits*/
 .benefits {
     background-color: var(--primary);
 }
@@ -384,6 +394,9 @@ header nav {
     margin-bottom: 2rem;
 }
 
+/*#endregion section benefits*/
+
+/*#region section about*/
 .about_us_text {
     padding: 2rem;
 }
@@ -430,6 +443,9 @@ i.fa-solid.fa-quote-left.fa-4x {
     font-weight: 700;
 }
 
+/*#endregion section about*/
+
+/*#region section get started*/
 .get_started {
     background-color: var(--primary);
 }
@@ -480,6 +496,11 @@ i.fa-solid.fa-quote-left.fa-4x {
     color: var(--light);
 }
 
+/*#endregion section get started*/
+
+/*#endregion main*/
+
+/*#region footer*/
 #site_footer .centered_box {
     width: 300px;
 }
@@ -496,14 +517,13 @@ i.fa-solid.fa-quote-left.fa-4x {
     margin-bottom: 2rem;
 }
 
-/*#endregion main*/
-
-/*#region footer*/
 footer {
     background-color: var(--dark);
 }
 
 /*#endregion footer*/
+
+/*********** RESPONSIVE ***********/
 
 /*#region responsive 1200px*/
 
