@@ -512,11 +512,12 @@ footer {
     .nav_container {
         max-width: 1140px;
         margin: 0 auto;
-        padding: 1rem 0 1rem 0.5rem;
+        padding: 1rem 0.5rem 1rem 1.5rem;
     }
 
     .container {
         max-width: 1140px;
+        padding: 1rem;
     }
 
     .col_4 {
@@ -534,11 +535,12 @@ footer {
 @media screen and (max-width:769px) {
     .container {
         max-width: 720px;
+        padding: 1rem;
     }
 
     .nav_container {
         max-width: 720px;
-        padding: 1rem 0.5rem 1rem 0.5rem
+        padding: 1rem 1.5rem 1rem 1.5rem;
     }
 
     .planning .col_sm_12 {
@@ -610,10 +612,6 @@ footer {
 @media screen and (max-width:480px) {
     .col_sm_12 {
         width: 100%;
-    }
-
-    .nav_container {
-        max-width: 90%;
     }
 
     .nav_container li:last-child {
