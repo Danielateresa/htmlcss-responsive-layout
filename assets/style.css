@@ -12,16 +12,17 @@
     --dark: #323332;
     --darker: #000;
     --light: #fffefe;
+    --light-gray: #5A6E7F;
 
 }
 
-/*#region debug*/
-/* .debug header {
+/* #region debug*/
+.debug header {
     height: 70px;
-} */
+}
 
 .debug .heading,
-.partner {
+.debug .partner {
     border: 1px solid black;
 
 }
@@ -38,10 +39,10 @@
     height: 200px;
 }
 
-[class^="col_"] {
+/* [class^="col_"] {
 
     border: 1px solid black;
-}
+} */
 
 
 /*region utilities*/
@@ -118,7 +119,8 @@
 
 /*#region common*/
 body {
-    font-family: 'Inria Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+
 }
 
 body p {
@@ -229,7 +231,7 @@ header nav {
 
 .demo p {
     font-weight: 600;
-    color: var(--dark);
+    color: var(--light-gray);
     margin-bottom: 2rem;
 }
 
@@ -429,7 +431,7 @@ footer {
     .pd_container {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: space-between;
     }
 
 
