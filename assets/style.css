@@ -187,10 +187,10 @@ header nav {
     background-color: var(--primary);
 }
 
-.foto {
+/* .foto {
     width: 30%;
     aspect-ratio: 1/1;
-}
+} */
 
 .demo .col_8,
 .demo .col_4 {
@@ -335,26 +335,17 @@ header nav {
     margin-top: 1rem;
 }
 
-.foto1,
-.foto2,
-.foto3 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
+.foto {
+    width: 30%;
+}
+
+.foto img {
+    max-width: 100%;
+    aspect-ratio: 1/1;
     border-radius: 50%;
+    object-fit: cover;
 }
 
-.foto1 {
-    background-image: url(./img/testimonial1.jpg);
-}
-
-.foto2 {
-    background-image: url(./img/testimonial2.jpg);
-}
-
-.foto3 {
-    background-image: url(./img/testimonial3.jpg);
-}
 
 .benefits {
     background-color: var(--primary);
